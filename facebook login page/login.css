@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+
+:root{
+    --fontfamily:'Poppins',sans-serif;
+    --color:#192ff8;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.container{
+    display:flex;
+    width: 100%;
+    padding: 20px;
+    justify-content:space-around;
+    align-items:center;
+    height: 100vh;
+    background-color: #f3eeee;
+}
+
+.textContainer{
+    padding: 20px;
+}
+
+.textContainer h1{
+    color:var(--color);
+    font-size: 35px;
+    font-family:var(--fontfamily);
+}
+
+.textContainer h4{
+    font-family: var(--fontfamily);
+    font-size: 16px;
+    font-weight: 400;
+    color:#4e4b4b;
+}
+
+.loginConatiner{
+    text-align: center;
+    min-width :360px ;
+    width : 360px;
+    border-radius: 10px;
+}
+
+.loginConatiner form{
+    background:#FFF;
+    padding: 20px;
+    border-radius:7px;
+    box-shadow: 0 0 3px 4px rgb(209,207,207);
+}
+
+.inputbox{
+    display: block;
+    width: 100%;
+    padding:10px;
+    border-radius: 3px;
+    border:0.01px solid rgb(177,175,175);
+    margin-bottom:10px;
+}
+
+.button{
+    background-color: var(--color);
+    border:none;
+    color:#ffffff;
+    width:100%;
+    font-weight: 600;
+    font-family:var(--fontfamily);
+    padding: 7px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.Forgotpass{
+    color: var(--color);
+    margin: 10px 0px;
+    display: block;
+    text-decoration: none;
+}
+
+.hr{
+    background-color: #c3bebe;
+    width: 100px;
+    height: 1px;
+}
+
+.newacc{
+    margin-top: 10;
+    background-color: #42b72a;
+    color:#ffffff;
+    padding:5px;
+    display: block;
+    width:fit-content;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+}
+
+.create{
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
